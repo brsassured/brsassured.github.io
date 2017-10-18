@@ -1,0 +1,13 @@
+{
+  "name": "brs-assured",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "_piekarnik@bitbucket.org:_piekarnik/brs-assured.git",
+  "author": "owen <owenthomasclark@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5",
+    "bootstrap": "4.0.0-beta"
+  }
+}
