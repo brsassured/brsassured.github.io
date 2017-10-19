@@ -6,8 +6,9 @@
   "author": "owen <owenthomasclark@me.com>",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "4.0.0-beta",
     "jquery": "^3.2.1",
     "popper.js": "^1.12.5",
-    "bootstrap": "4.0.0-beta"
+    "slick-carousel": "^1.8.1"
   }
 }
