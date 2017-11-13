@@ -1,7 +1,13 @@
 $(document).ready(function () {
-    $('.your-class').slick({
-        fade: true,
-        autoplay: true,
-        autoplaySpeed: 2000
+    $('.slider')
+    .on('init', function(slick) {
+        console.log('fired!');
+        $('.slider').fadeIn(3000);
+    })
+    .slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      fade: true,
+      cssEase: 'linear'
     });
 });

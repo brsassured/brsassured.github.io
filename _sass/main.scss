@@ -5,3 +5,14 @@
   "styles/layout",
   "home"
 ;
+
+.nav-link {
+  color: white;
+  &:hover {
+    color: lightgrey;
+  }
+}
+
+body {
+   font-family: 'Open Sans' !important;
+}

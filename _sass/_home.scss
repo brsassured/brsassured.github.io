@@ -1,6 +1,12 @@
 #home-hero {
-    height: 600px;
-    background-color: black;
+  height: 600px;
+  width: 100%;
+  .slider {
+    display: none;
+  }
+  h1 {
+    font-weight: 300;
+  }
     .home-hero--1,
     .home-hero--2,
     .home-hero--3,
@@ -32,5 +38,10 @@
     }
     .home-hero--7 {
         background-image: url("/assets/img/7.jpg");
+    }
+    .home-hero--content {
+      background-color: rgba(0,0,0,.5);
+      height: 100%;
+      width: 100%;
     }
 }
