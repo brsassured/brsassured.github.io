@@ -1,0 +1,14 @@
+.service-hero {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  h1 {
+    font-weight: 300;
+  }
+}
+
+.service-hero--content {
+  background-color: rgba(0,0,0,.5);
+  height: 100%;
+  width: 100%;
+}
