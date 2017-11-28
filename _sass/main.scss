@@ -7,6 +7,15 @@
   "services"
 ;
 
+*::selection {
+  background: theme-color("primary"); /* WebKit/Blink Browsers */
+  color: white;
+}
+*::-moz-selection {
+  background: theme-color("primary"); /* Gecko Browsers */
+  color: white;
+}
+
 .nav-link {
   color: white;
   &:hover {
